@@ -1,45 +1,44 @@
+<img width="394" alt="Ekran Resmi 2023-02-18 01 34 54" src="https://user-images.githubusercontent.com/77540372/219809010-62bed0a1-4376-49e9-8c78-fab382ea130b.png">
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+<img width="380" alt="Ekran Resmi 2023-02-18 01 34 17" src="https://user-images.githubusercontent.com/77540372/219809037-34518649-0bdb-487e-9784-c76bb01aee83.png">
 
-#  Quizzler
 
-## Our Goal
-
-The goal of this tutorial is to take you one step further in your journey of becoming an app developer. We are going to introduce you to the holy grail of mobile design patterns: the Model View Controller (MVC) pattern. A design pattern is simply a repeatable and optimised solution to a common software problem and you’ll learn more about this when use in the tutorial.
+#  Quizzler ismini verdiğim kim milyoner olmak ister uygulaması
 
 ## What you will create
 
-You will program a trivia quiz app. If you have another field of expertise such as law or medicine, you’ll be glad to know that multiple choice question apps are one of the most popular types of educational apps on the App Store! 
+Angela Yu hocamla geliştirdiğim uygulamam Quizzler. Bu kursta en önemli tasarım modellerinden biri olan MVC yani model view controller yapısını öğrendim.
+Basit bir kim milyoner olmak ister uygulaması. Bastığımız buton doğruysa yeşil yanlışsa kırmızı yanar. Aşağıda kaç sorumuz kaldığını gösteren bir progressBar var. Ayrıca yukarıda Score'umuzu tutan bir label var.
 
-## What you will learn
+## Bu uygulama sayesinde geliştirdiğim özellikler
 
-* How to programmatically change UI elements such as Labels and Buttons.
-* What is a design pattern and how is it used in programming.
-* How to use the Model-View-Controller or MVC pattern for app development.
-* Learn about Swift Structures how to instantiate a struct instance.
-* Understand the difference between value types and reference types. 
-* Learn about Swift Classes and creating Objects.
-* Compare Swift Classes with Swift Structs and know when to use which.
-* Learn about Object Oriented Programming.
-* How to refactor code and stay organised.
-
+* Etiketler ve Düğmeler gibi UI öğelerini programlı olarak değiştirmek.
+* Tasarım deseni nedir ve programlamada nasıl kullanılır?
+* Uygulama geliştirme için Model-View-Controller veya MVC modeli nasıl kullanılır?
+* Değer türleri ile referans türleri arasındaki farkı anlamak. 
+* Swift Sınıfları ve Nesneler oluşturma hakkında bilgi edinmek.
+* Swift Sınıflarını Swift Structs ile karşılaştırmak ve hangisini ne zaman kullanacağınızı öğrenmek.
+* Nesne Yönelimli Programlama hakkında bilgi edinmek.
+* Kodu yeniden düzenleme ve düzenli kalmak.
 
 
-## Default Quiz
+
+## kullandığım sorular
 
 ```
-  Question(q: "A slug's blood is green.", a: "True"),
-        Question(q: "Approximately one quarter of human bones are in the feet.", a: "True"),
-        Question(q: "The total surface area of two human lungs is approximately 70 square metres.", a: "True"),
-        Question(q: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", a: "True"),
-        Question(q: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", a: "False"),
-        Question(q: "It is illegal to pee in the Ocean in Portugal.", a: "True"),
-        Question(q: "You can lead a cow down stairs but not up stairs.", a: "False"),
-        Question(q: "Google was originally called 'Backrub'.", a: "True"),
-        Question(q: "Buzz Aldrin's mother's maiden name was 'Moon'.", a: "True"),
-        Question(q: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", a: "False"),
-        Question(q: "No piece of square dry paper can be folded in half more than 7 times.", a: "False"),
-        Question(q: "Chocolate affects a dog's heart and nervous system; a few ounces are enough to kill a small dog.", a: "True")
+  Question(q: "Sümüklüböceğin kanı yeşildir.", a: "Doğru"),
+        Question(q: "İnsan kemiklerinin yaklaşık dörtte biri ayaklardadır.", a: "Doğru"),
+        Question(q: "İki insan akciğerinin toplam yüzey alanı yaklaşık 70 metrekaredir.", a: "Doğru"),
+        Question(q: "ABD, West Virginia'da, arabanızla yanlışlıkla bir hayvana çarparsanız, onu yemek için eve götürmekte özgürsünüz.", a: "Doğru"),
+        Question(q: "Londra, Birleşik Krallık'ta, Parlamento Binası'nda ölürseniz, teknik olarak bir devlet cenazesine hak kazanırsınız, çünkü bina çok kutsal bir yer olarak kabul edilir.", a: "Yanlış"),
+        Question(q: "Portekiz'de okyanusa işemek suçtur.", a: "Doğru"),
+        Question(q: "Bir ineği merdivenlerden aşağı götürebilirsin ama yukarı çıkaramazsın.", a: "Yanlış"),
+        Question(q: "Google başlangıçta 'Destek' olarak adlandırıldı.", a: "Doğru"),
+        Question(q: "Friends dizisi 6 ana karakterden oluşur.", a: "Doğru"),
+        Question(q: "Herhangi bir hayvan tarafından üretilen en yüksek ses 188 desibeldir. O hayvan Afrika Filidir.", a: "Yanlış"),
+        Question(q: "Hiçbir kare kuru kağıt 7 defadan fazla ikiye katlanamaz.", a: "Yanlış"),
+        Question(q: "Çikolata, bir köpeğin kalbini ve sinir sistemini etkiler; küçük bir köpeği öldürmek için birkaç parça yeterlidir.", a: "Doğru")
+
 ```
 
 
