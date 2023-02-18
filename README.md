@@ -5,7 +5,7 @@
 
 #  Quizzler ismini verdiğim kim milyoner olmak ister uygulaması
 
-## What you will create
+## Yaptığım uygulama
 
 Angela Yu hocamla geliştirdiğim uygulamam Quizzler. Bu kursta en önemli tasarım modellerinden biri olan MVC yani model view controller yapısını öğrendim.
 Basit bir kim milyoner olmak ister uygulaması. Bastığımız buton doğruysa yeşil yanlışsa kırmızı yanar. Aşağıda kaç sorumuz kaldığını gösteren bir progressBar var. Ayrıca yukarıda Score'umuzu tutan bir label var.
